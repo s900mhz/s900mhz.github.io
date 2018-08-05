@@ -1,5 +1,19 @@
 $(document).ready(function () {
 
-//jQuery functionality coming soon!
-}
-);
+    anim();
+
+});
+
+var card = $('.card');
+   function anim() {
+        setInterval(function(){
+       card.animate({
+       top:'+=10'},
+       { duration:2000})
+    
+            
+       card.animate({
+       top:'-=10'},
+     { duration:2000,}
+        )});
+   }
