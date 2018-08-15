@@ -8,12 +8,12 @@ var card = $('.card');
    function anim() {
         setInterval(function(){
        card.animate({
-       top:'+=10'},
+       top:'+=5'},
        { duration:2000})
     
             
        card.animate({
-       top:'-=10'},
+       top:'-=5'},
      { duration:2000,}
         )});
    }
